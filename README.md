@@ -63,17 +63,27 @@ Scraped `.csv` files will be saved into folders named after each league, for exa
 ```
 La_Liga/La Liga_2023-2024_matches.csv
 ```
-
-## 🔒 Duplicate Handling
-
-The scraper checks if each match already exists in the corresponding CSV file and skips it to avoid duplication.
-
 ## 🛠️ Customization
 
 You can easily modify:
 - The leagues to scrape (`leagues` dictionary in `main.py`)
 - The seasons to scrape (`seasons` list in `main.py`)
 - The stats or output formatting in `matches_scraper.py`
+
+## 🔒 Duplicate Handling
+
+The scraper checks if each match already exists in the corresponding CSV file and skips it to avoid duplication.
+
+## ⏳ Notes on Delays and Responsiveness
+
+FBref pages can be slow or inconsistent to load, and scraping large amounts of matches may take time.
+
+- The scraper includes a delay (`time.sleep(3.2)`) between seasons to avoid overwhelming the server.
+- If you're scraping multiple leagues and years, expect the process to take several minutes or more.
+- Matches without complete stats will be skipped or partially filled depending on availability.
+- Consider modifying the sleep duration or limiting seasons if you need quicker results.
+
+Please use this tool responsibly to avoid overloading the FBref servers.
 
 ## 📚 Documentation
 
