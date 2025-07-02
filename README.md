@@ -75,6 +75,10 @@ You can easily modify:
 - The seasons to scrape (`seasons` list in `main.py`)
 - The stats or output formatting in `matches_scraper.py`
 
+## 📚 Documentation
+
+- 🗺️ [How to Add New Leagues](https://github.com/jonborghini/fbref-scraper/wiki/How-to-Add-New-Leagues)
+
 ## 📈 Roadmap
 
 - Add player-level stats scraper (per match)
