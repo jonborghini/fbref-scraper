@@ -35,7 +35,7 @@ fbref-scraper/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your_username/fbref-scraper.git
+git clone https://github.com/jonborghini/fbref-scraper.git
 cd fbref-scraper
 ```
 
