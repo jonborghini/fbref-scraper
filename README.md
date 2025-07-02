@@ -88,6 +88,7 @@ Please use this tool responsibly to avoid overloading the FBref servers.
 ## 📚 Documentation
 
 - 🗺️ [How to Add New Leagues](https://github.com/jonborghini/fbref-scraper/wiki/How-to-Add-New-Leagues)
+- 📊 [Understanding the Stats](https://github.com/jonborghini/fbref-scraper/wiki/Understanding-the-Stats)
 
 ## 📈 Roadmap
 
