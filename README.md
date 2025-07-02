@@ -4,11 +4,11 @@ This project is a Python-based web scraper that collects detailed match data fro
 
 ## 🚀 Features
 
-- ✅ Automatically scrapes played matches from top European leagues (La Liga, Premier League, Serie A, Bundesliga, Ligue 1)
-- ✅ Supports multiple seasons (default: 2018–2019 to 2023–2024)
-- ✅ Extracts detailed team-level stats (xG, possession, corners, passes, defense, etc.)
-- ✅ Saves data to `.csv` files organized by league and season
-- ✅ Prevents duplicates by checking existing data before writing
+- Automatically scrapes played matches from top European leagues (La Liga, Premier League, Serie A, Bundesliga, Ligue 1)
+- Supports multiple seasons (default: 2018–2019 to 2023–2024)
+- Extracts detailed team-level stats (xG, possession, corners, passes, defense, etc.)
+- Saves data to `.csv` files organized by league and season
+- Prevents duplicates by checking existing data before writing
 
 ## 🧠 Technologies
 
